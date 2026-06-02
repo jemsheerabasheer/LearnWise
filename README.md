@@ -26,7 +26,7 @@ LearnWise is a web-based personalized learning platform designed to help users f
 ## Setup Instructions
 
 1. Clone the repository
-   git clone https://github.com/your-username/LearnWise.git
+   git clone <repo-url>
 
 2. Install dependencies
    cd frontend
