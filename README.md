@@ -23,10 +23,18 @@ LearnWise is a web-based personalized learning platform designed to help users f
 * frontend/ – React application (user interface)
 * backend/ – Node.js and Express API
 
+## Prerequisites
+
+Before running the project, ensure you have:
+
+- Node.js (v18 or later)
+- MongoDB installed or a MongoDB Atlas account
+- Ollama installed and running locally
+
 ## Setup Instructions
 
 1. Clone the repository
-   git clone <https://github.com/jemsheerabasheer/LearnWise>
+   git clone https://github.com/jemsheerabasheer/LearnWise.git
 
 2. Install dependencies
    cd frontend
@@ -51,7 +59,7 @@ MONGO_URI=your_database_connection_string
 This project was developed collaboratively by:
 
 - Jemsheera Basheer Kunju 
-- Reeha Fathima 
+- Reeha Fathima
 - Sheza P 
 - Abhinandana C P
 ## Overview
