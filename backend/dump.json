@@ -1,0 +1,64 @@
+[
+  {
+    "currentSkills": [],
+    "_id": "69ae7109f3e4bec623340956",
+    "userId": "69ae70f3f3e4bec623340951",
+    "skillLevel": "beginner",
+    "knownLanguages": [
+      "pyhton"
+    ],
+    "preferences": "videos",
+    "careerGoals": "Full stack developer",
+    "createdAt": "2026-03-09T07:04:41.274Z",
+    "updatedAt": "2026-03-09T07:04:41.274Z",
+    "__v": 0
+  },
+  {
+    "_id": "69ae7afaf3e4bec62334097f",
+    "userId": "69ae7ac3f3e4bec62334097a",
+    "skillLevel": "intermediate",
+    "knownLanguages": [
+      "autocad"
+    ],
+    "preferences": "articles",
+    "careerGoals": "java developer",
+    "createdAt": "2026-03-09T07:47:06.595Z",
+    "updatedAt": "2026-04-01T02:14:40.442Z",
+    "__v": 21,
+    "currentSkills": []
+  },
+  {
+    "currentSkills": [],
+    "_id": "69ae8e81f3e4bec6233409d9",
+    "userId": "69ae8653f3e4bec6233409d4",
+    "skillLevel": "beginner",
+    "knownLanguages": [
+      "python"
+    ],
+    "preferences": "articles",
+    "careerGoals": "Full stack developer",
+    "createdAt": "2026-03-09T09:10:25.027Z",
+    "updatedAt": "2026-03-09T09:10:25.027Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c9e9de7e0c393dc93bb3ad",
+    "userId": "69c9e97d7e0c393dc93bb3a8",
+    "currentSkills": [],
+    "preferences": "videos",
+    "careerGoals": "Full stack develooper",
+    "createdAt": "2026-03-30T03:11:26.337Z",
+    "updatedAt": "2026-03-30T03:11:26.337Z",
+    "__v": 0
+  },
+  {
+    "_id": "69cc8051b50173964c4bcff9",
+    "userId": "69cc8032b50173964c4bcff4",
+    "currentSkills": [],
+    "preferences": "articles",
+    "careerGoals": "Full stack developer",
+    "createdAt": "2026-04-01T02:17:53.131Z",
+    "updatedAt": "2026-04-01T02:17:53.131Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #f8fafc;
+    --foreground: #0f172a;
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+  }
+  
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans tracking-tight antialiased selection:bg-indigo-100 selection:text-indigo-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-slate-900;
+  }
+}
+
+@layer components {
+  /* Soft, elevated premium container styling */
+  .premium-card {
+    @apply bg-white p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 backdrop-blur-sm transition-all duration-300;
+  }
+
+  /* Form inputs styling */
+  .styled-input {
+    @apply mt-2 block w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl shadow-sm placeholder-slate-400
+    focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 focus:bg-white 
+    transition-all duration-200 text-sm;
+  }
+  
+  /* Select styling */
+  .styled-select {
+    @apply mt-2 block w-full pl-4 pr-10 py-3 bg-slate-50 text-base border-slate-200 focus:outline-none 
+    focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 focus:bg-white sm:text-sm rounded-xl 
+    transition-all duration-200 shadow-sm appearance-none cursor-pointer;
+  }
+
+  /* Primary Action Button */
+  .btn-primary {
+    @apply w-full flex justify-center py-3.5 px-4 rounded-xl text-sm font-semibold text-white 
+    bg-indigo-600 hover:bg-indigo-700 hover:shadow-lg hover:shadow-indigo-600/20 
+    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 
+    disabled:opacity-70 disabled:cursor-not-allowed transform hover:-translate-y-0.5 
+    transition-all duration-200 active:translate-y-0 relative overflow-hidden;
+  }
+
+  /* Secondary subtle links */
+  .link-secondary {
+    @apply font-semibold text-indigo-600 hover:text-indigo-500 transition-colors duration-200 hover:underline underline-offset-4 cursor-pointer;
+  }
+
+  /* Error and Success Banners */
+  .alert-error {
+    @apply bg-red-50/80 backdrop-blur-sm border border-red-200 p-4 rounded-xl flex items-center text-sm text-red-800 transition-all duration-300;
+  }
+  
+  .alert-success {
+    @apply bg-emerald-50/80 backdrop-blur-sm border border-emerald-200 p-4 rounded-xl flex items-center text-sm text-emerald-800 transition-all duration-300;
+  }
+}
+
+/* Custom background pattern for login/register screens */
+.bg-mesh-pattern {
+  background-color: #f8fafc;
+  background-image: radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+  background-blend-mode: multiply;
+  position: relative;
+  z-index: 0;
+}
+
+.bg-mesh-pattern::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: -1;
+}
